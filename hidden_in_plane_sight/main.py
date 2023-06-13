@@ -1,20 +1,34 @@
 """
-    So here is some lyrics that sums up really how I feel. Or is it. Maybe
-    somewhere in these lyrics may be another message.
-    Im so proud of how well you are learning this. SHUT UP!!!!! I know
-    what you are thinking and your wrong. Anyhow, I
-    have so much faith in you that if you figuer this out, I will
-    refund you 0.05% of that dollar you gave me. WINK
+    For todays adventure we are going to work on list index.
+    The index is the location in the list where an item is held.
+    Lets say we have a list, l = ["d", "0", "G"]
+    If we want "0" we would use l[1] because starting from zero, the "0" is in index 1.
+    Strings can be used the same way.
+    s = "lama farts"
+    s[0] would = "l"
+    s[8] would = "t"
+    s[4] would = " "
+
+    So what we need to do is loop throug the song list below
+    and use each number as the index for the letter needed from lyrics.
+    Make a empty string variable, and append each letter, then print to find the message.
+
+
+    https://www.w3schools.com/python/python_strings.asp
+    scroll down to strings are arrays
 """
 
 
-lyrics = """I'm doing this tonight
-            You're probably gonna start a fight
-            I know this can't be right
-            Hey baby come on
-            I loved you endlessly
-            When you weren't there for me
-            So now it's time to leave and make it alone"""
+song = [87, 7, 153, 18, 153, 154, 11, 114, 146, 7, 73, 334, 54, 34, 18, 146, 6, 233, 280, 335, 339, 338, 337, 9, 12, 336, 230, 142, 230, 144, 211]
 
-
-song = [65, 46, 39, 3, 46, 88, 46, 49]
+lyrics = """
+    Who does she think she is, that girl has tangled with
+    The wrong man! No one says no to Gaston
+    Heh heh. Darn right
+    Dismissed! Rejected, publicly humiliated
+    Why, it's more than I can bear
+    More beer
+    What for? Nothing helps, I'm disgraced
+    Who, you, never Gaston, you've got to pull yourself together.
+    /=6zJA
+"""
